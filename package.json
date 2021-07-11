@@ -1,0 +1,20 @@
+{
+  "name": "InMemDB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mayankchauhan971/InMemDB"
+  },
+  "keywords": [],
+  "author": "Mayank Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "clone": "^2.1.2",
+    "fs": "0.0.1-security"
+  }
+}
