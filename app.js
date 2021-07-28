@@ -32,7 +32,7 @@ readInput.on('line', (input)=>{
 			console.log(db.get(key));
 			break;
 		case 'DELETE':
-			db.delete('a');
+			db.delete(key);
 			break;
 		case 'COUNT':
 			console.log(db.count(key));
